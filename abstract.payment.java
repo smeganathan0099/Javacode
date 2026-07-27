@@ -51,8 +51,8 @@ class cardpayment extends payment {
 public class Main {
     public static void main(String[] args) {
 
-        payment p1 = new upipayment(550.75, "yash@oksbi");
-        payment p2 = new cardpayment(120.50, "1234567812345678");
+        payment p1 = new upipayment(550.75, "megsa@okaxis");
+        payment p2 = new cardpayment(999.90, "009905590099");
 
         p1.pay();
         p1.receipt();
